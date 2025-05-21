@@ -1,0 +1,16 @@
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Debug\net8.0-windows\ckBackground.exe
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Debug\net8.0-windows\ckBackground.deps.json
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Debug\net8.0-windows\ckBackground.runtimeconfig.json
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Debug\net8.0-windows\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Debug\net8.0-windows\ckBackground.pdb
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.AssemblyInfoInputs.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.AssemblyInfo.cs
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.csproj.CoreCompileInputs.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\refint\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.pdb
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.genruntimeconfig.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ref\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\Interop.IWshRuntimeLibrary.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Debug\net8.0-windows\ckBackground.csproj.ResolveComReference.cache

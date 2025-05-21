@@ -1,0 +1,14 @@
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Release\net8.0\ckBackground.exe
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Release\net8.0\ckBackground.deps.json
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Release\net8.0\ckBackground.runtimeconfig.json
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Release\net8.0\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\bin\Release\net8.0\ckBackground.pdb
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.AssemblyInfoInputs.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.AssemblyInfo.cs
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.csproj.CoreCompileInputs.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\refint\ckBackground.dll
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.pdb
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ckBackground.genruntimeconfig.cache
+C:\Users\ahdzl\Downloads\미완\ckBackground\ckBackground\obj\Release\net8.0\ref\ckBackground.dll
