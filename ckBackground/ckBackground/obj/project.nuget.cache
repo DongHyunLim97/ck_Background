@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "//0qP3E2OFw=",
+  "dgSpecHash": "rIs9h6zYt0E=",
   "success": true,
-  "projectFilePath": "D:\\Dev\\ckBackground\\ckBackground\\ckBackground.csproj",
+  "projectFilePath": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\ckBackground.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahdzl\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.14\\microsoft.net.illink.tasks.8.0.14.nupkg.sha512",
     "C:\\Users\\ahdzl\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.14\\microsoft.aspnetcore.app.runtime.win-x64.8.0.14.nupkg.sha512",

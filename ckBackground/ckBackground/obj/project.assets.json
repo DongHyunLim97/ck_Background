@@ -83,11 +83,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\ckBackground\\ckBackground\\ckBackground.csproj",
+      "projectUniqueName": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\ckBackground.csproj",
       "projectName": "ckBackground",
-      "projectPath": "D:\\Dev\\ckBackground\\ckBackground\\ckBackground.csproj",
+      "projectPath": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\ckBackground.csproj",
       "packagesPath": "C:\\Users\\ahdzl\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\ckBackground\\ckBackground\\obj\\",
+      "outputPath": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

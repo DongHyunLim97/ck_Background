@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dev\\ckBackground\\",
+  "WorkspaceRootPath": "D:\\Dev\\ck_Background\\ckBackground\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0F28598-F797-4779-8CA0-46D06A418535}|ckBackground\\ckBackground.csproj|d:\\dev\\ckbackground\\ckbackground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A0F28598-F797-4779-8CA0-46D06A418535}|ckBackground\\ckBackground.csproj|d:\\dev\\ck_background\\ckbackground\\ckbackground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0F28598-F797-4779-8CA0-46D06A418535}|ckBackground\\ckBackground.csproj|solutionrelative:ckbackground\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Dev\\ckBackground\\ckBackground\\Program.cs",
+              "DocumentMoniker": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\Program.cs",
               "RelativeDocumentMoniker": "ckBackground\\Program.cs",
-              "ToolTip": "D:\\Dev\\ckBackground\\ckBackground\\Program.cs",
+              "ToolTip": "D:\\Dev\\ck_Background\\ckBackground\\ckBackground\\Program.cs",
               "RelativeToolTip": "ckBackground\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwFkAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T00:45:10.112Z",
               "EditorCaption": ""
