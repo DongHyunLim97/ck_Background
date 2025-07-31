@@ -1,7 +1,10 @@
-﻿using IWshRuntimeLibrary;
-using System.Runtime.InteropServices;
+﻿using System;
 using System.IO;
 using System.Diagnostics;
+using IWshRuntimeLibrary;
+using System.Runtime.InteropServices;
+using System.Diagnostics.CodeAnalysis;
+
 
 
 class Program
@@ -14,7 +17,7 @@ class Program
     const int SPIF_UPDATEINIFILE = 0x01;
     const int SPIF_SENDCHANGE = 0x02;
 
-    const string ProgVersion = "20250523";
+    const string ProgVersion = "20250731";
 
     enum spaceIdx
     {
@@ -42,8 +45,7 @@ class Program
     //버전링크
     const string versionUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/main/BackGround/version.txt";
 
-
-
+    [RequiresAssemblyFiles("Calls System.Reflection.Assembly.Location")]
     static async Task Main(string[] args)
     {
         string imgTemp = null;
@@ -70,6 +72,7 @@ class Program
         Console.WriteLine("인터넷 연결을 기다리고 있습니다...");
 
         await WaitForInternetConnectionAsync();
+
         await UpdateCheck(exeTemp);
 
         string downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "downloaded_image.png");
@@ -133,6 +136,18 @@ class Program
         {
             try
             {
+                //실행파일의 위치를 확인
+                // 현재 실행 중인 .exe 파일의 전체 경로
+                string exePath = AppContext.BaseDirectory;
+                // 실행 파일이 위치한 디렉토리 경로
+                string exeDirectory = Path.GetDirectoryName(exePath);
+                // "내 문서" 폴더 경로
+                string myDocumentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+                if (exeDirectory != myDocumentsPath)
+                    throw new Exception("파일 위치 불일치.");
+
+
                 string content = await client.GetStringAsync(versionUrl);
 
                 if (ProgVersion != content) //버전 불일치
