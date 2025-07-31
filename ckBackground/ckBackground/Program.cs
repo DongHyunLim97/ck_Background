@@ -17,7 +17,7 @@ class Program
     const int SPIF_UPDATEINIFILE = 0x01;
     const int SPIF_SENDCHANGE = 0x02;
 
-    const string ProgVersion = "20250732";
+    const string ProgVersion = "20250733";
 
     enum spaceIdx
     {
