@@ -17,7 +17,7 @@ class Program
     const int SPIF_UPDATEINIFILE = 0x01;
     const int SPIF_SENDCHANGE = 0x02;
 
-    const string ProgVersion = "20250731";
+    const string ProgVersion = "20250732";
 
     enum spaceIdx
     {
@@ -45,7 +45,6 @@ class Program
     //버전링크
     const string versionUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/main/BackGround/version.txt";
 
-    [RequiresAssemblyFiles("Calls System.Reflection.Assembly.Location")]
     static async Task Main(string[] args)
     {
         string imgTemp = null;
@@ -224,12 +223,11 @@ class Program
     // 바로가기를 생성하는 함수
     static void CreateShortcut(string shortcutPath, string targetPath)
     {
-        if (System.IO.File.Exists(shortcutPath))
-        {
-            //Console.WriteLine("바로가기가 이미 존재합니다.");
-            return;
-        }
-
+        //if (System.IO.File.Exists(shortcutPath))
+        //{
+        //    Console.WriteLine("바로가기가 이미 존재합니다.");
+        //    return;
+        //}
         WshShell shell = new WshShell();
         IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(shortcutPath);
         shortcut.TargetPath = targetPath; // 실행할 파일 경로
