@@ -30,9 +30,9 @@ class Program
     //융콘
     const string convImageUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/refs/heads/main/BackGround/Conv/conv.png";
     //웅콘랩실
-     const string convLabImageUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/refs/heads/main/BackGround/ConvLab/convLab.png";
+    const string convLabImageUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/refs/heads/main/BackGround/ConvLab/convLab.png";
     //게임
-     const string gameImageUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/refs/heads/main/BackGround/Game/game.png";
+    const string gameImageUrl = "https://raw.githubusercontent.com/DongHyunLim97/ck_Background/refs/heads/main/BackGround/Game/game.png";
 
     //실행파일링크
     //융콘
@@ -47,6 +47,8 @@ class Program
 
     static async Task Main(string[] args)
     {
+        await CopyNewVersion();
+
         string imgTemp = null;
         string exeTemp = null;
         switch (idx)
@@ -69,6 +71,8 @@ class Program
         Console.WriteLine("청강대 행정실에서 관리하는 프로그램입니다.");
         Console.WriteLine("종료하지 말아주세요.");
         Console.WriteLine("인터넷 연결을 기다리고 있습니다...");
+
+
 
         await WaitForInternetConnectionAsync();
 
@@ -99,9 +103,42 @@ class Program
         Console.WriteLine("3초 후 프로그램을 자동으로 종료합니다.");
         await Task.Delay(3000);
         // 프로그램 종료
+
         Application.ExitThread();
         Environment.Exit(0);
     }
+    static async Task CopyNewVersion()
+    {
+        //로컬에 저장할 경로
+        string localFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ckBackground.exe");
+        // 현재 실행 중인 프로그램의 경로 가져오기
+        string currentPath = Process.GetCurrentProcess().MainModule.FileName;
+        if (Path.GetFileName(currentPath).Equals("ckBackgroundNew.exe", StringComparison.OrdinalIgnoreCase))
+        {
+            try
+            {
+                // MainApp.exe가 실행 중이면 종료될 때까지 대기
+                while (Process.GetProcessesByName("ckBackground").Any()) ;
+
+                System.IO.File.Copy(currentPath, localFilePath, true);
+
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = localFilePath,
+                    UseShellExecute = true  // 관리자 권한이 필요한 경우 false로 바꾸고 Verb = "runas" 설정 가능
+                });
+
+                Application.ExitThread();
+                Environment.Exit(0);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"오류 발생: {ex.Message}");
+            }
+        }
+    }
+
     // 인터넷 연결을 기다리는 함수
     static async Task WaitForInternetConnectionAsync()
     {
@@ -151,7 +188,7 @@ class Program
 
                 if (ProgVersion != content) //버전 불일치
                     throw new Exception("새로운 버전이 있습니다.");
-                
+
             }
             catch (HttpRequestException e)
             {
@@ -172,7 +209,7 @@ class Program
         Console.WriteLine("새 버전 다운로드");
 
         //로컬에 저장할 경로
-        string localFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ckBackground.exe");
+        string localFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ckBackgroundNew.exe");
 
         Console.WriteLine("파일 다운로드 시작...");
 

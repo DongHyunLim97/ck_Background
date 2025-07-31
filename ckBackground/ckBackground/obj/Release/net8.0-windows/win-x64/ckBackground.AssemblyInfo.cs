@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ckBackground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9faa4fa8d1ab5b2e673e8c2282ef5837065439d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adc3bba1064621f4942f0541d26df280397d5376")]
 [assembly: System.Reflection.AssemblyProductAttribute("ckBackground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ckBackground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
